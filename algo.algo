@@ -1,0 +1,14 @@
+FUNCTION chain_palindrom(CH) : return_type
+VAR
+ i,n=length(ch):INTEGER
+ ch,palind:STRING
+ !!false,true :BOOLEAN
+
+BEGIN
+   fOR i=1 in length(ch)/2 do
+    IF(ch[i]!=ch[length(ch)-1+i]) THEN
+    palind==false;
+     END IF 
+     END FOR
+     palind=true;
+END
